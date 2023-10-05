@@ -4,12 +4,12 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06"
   PolicySchemaVersion="0.3.0.0"
-  TenantId="mitsuzonotestorg.onmicrosoft.com"
+  TenantId="inaokatestorg.onmicrosoft.com"
   PolicyId="B2C_1A_TrustFrameworkExtensions"
-  PublicPolicyUri="http://mitsuzonotestorg.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions">
+  PublicPolicyUri="http://inaokatestorg.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions">
 
   <BasePolicy>
-    <TenantId>mitsuzonotestorg.onmicrosoft.com</TenantId>
+    <TenantId>inaokatestorg.onmicrosoft.com</TenantId>
     <PolicyId>B2C_1A_TrustFrameworkLocalization</PolicyId>
   </BasePolicy>
  <BuildingBlocks>
@@ -37,12 +37,12 @@
       <TechnicalProfiles>
          <TechnicalProfile Id="login-NonInteractive">
           <Metadata>
-            <Item Key="client_id">7cd80370-f34f-4b37-9fe3-36d4289f6a26</Item>
-            <Item Key="IdTokenAudience">419012f3-d692-43fb-a210-e36f91669527</Item>
+            <Item Key="client_id">600ecb5d-99d1-44bc-8320-8e1d472ebaeb</Item>
+            <Item Key="IdTokenAudience">20699804-7f0a-4ce8-ae39-f62e8bc4f375</Item>
           </Metadata>
           <InputClaims>
-            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="7cd80370-f34f-4b37-9fe3-36d4289f6a26" />
-            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="419012f3-d692-43fb-a210-e36f91669527" />
+            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="600ecb5d-99d1-44bc-8320-8e1d472ebaeb" />
+            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="20699804-7f0a-4ce8-ae39-f62e8bc4f375" />
           </InputClaims>
         </TechnicalProfile>
       </TechnicalProfiles>
